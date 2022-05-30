@@ -1,0 +1,60 @@
+
+.container_agricultores{
+    width: 83%;
+    height: 100%;
+    
+    padding-left: 17%;
+
+    font-family: 'Poppins';
+   
+    display: inline-block;
+    flex-wrap: wrap;
+
+    .texto1{
+        text-align:left;
+        font-family: 'Poppins';
+        font-weight: lighter;
+        font-size: 22px;
+    }
+
+    .data_agricultores{        
+        border: 1px solid black;
+        border-radius: 10px;
+
+        width: 70%;
+
+        ul{
+            display: flex;
+
+            .excluir{
+                width: 20px;
+                height: 20px;
+                margin-left: 20px;
+                color: red;
+            }
+
+            .editar{
+                width: 20px;
+                height: 20px;
+                margin-left: 20px;
+                color:#0000FF
+            }
+        }
+        
+        li{
+            list-style: none;
+            padding-right: 20px;
+            font-size: 14px;
+        }
+    }
+
+    .btn_adicionar{
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    color: azure;
+    background-color: #0000FF;
+    border: none;
+    border-radius: 10px;
+  }
+}

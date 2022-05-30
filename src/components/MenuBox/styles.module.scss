@@ -1,0 +1,50 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+div{
+ 
+.container_menu{
+   
+    width: 20%;
+    height: 100vh;
+
+    display: flex;
+    align-items: flex-start;
+
+    padding: 40px;
+    background:#FF0808;
+
+.menu_itens{
+    padding-top: 30px;
+    list-style: none;
+
+a{
+    font-family: 'Poppins';
+    color: azure;
+    font-weight:lighter;
+    font-size: 2.3vw;
+    text-decoration: none;
+
+    .image_menu{
+        width: 30px;
+        height: 30px;
+
+        margin-bottom: -2px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.texto_bem_vindo{
+    h1{
+        margin-top: -550px;
+        margin-left: 50%;
+        font-size: 2.3vw;
+    }
+  }
+}
