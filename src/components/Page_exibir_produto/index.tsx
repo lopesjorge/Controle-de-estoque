@@ -10,12 +10,24 @@ export function Page_exibir_produto(){
              <hr />
              </div>
 
-             <div className={styles.container_exibir_produto}>
-
-                 <input type="text" placeholder='Digite o nome ou código do produto'/>
-                 <img src="/src/image/icons8-pesquisar-32.png" alt="" />
-
+         <div className={styles.container_exibir_produto}>
+             <div className={styles.input_pesquisa}>
+                    <input type="text" placeholder='Digite o nome ou código do produto'/>
+                    <img src="/src/image/icons8-pesquisar-32.png" alt="" />
              </div>
+                     
+             <div className={styles.btn_adicionar}>
+                    <button>Adicionar</button>
+             </div>
+         </div>
+
+         <div className={styles.container_tabela_Produtos}>
+
+             <table>
+                 <td>Produtos</td>
+             </table>
+
+         </div>
 
         </div>
     )

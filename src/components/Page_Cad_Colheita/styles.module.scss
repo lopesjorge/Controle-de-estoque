@@ -1,0 +1,64 @@
+.container_cadastro_colheita{
+   
+    width: 83%;
+    height: 100%;
+    
+    padding-left: 17%;
+
+    font-family: 'Poppins';
+   
+    display: inline-block;
+
+    .texto1{
+        text-align:left;
+        font-family: 'Poppins';
+        font-weight: lighter;
+        font-size: 22px;
+    }
+
+    .form_cad_colheita{
+          
+        font-family: 'Poppins';
+        display: flexbox;
+        margin-left: 20px;
+
+        input{
+            margin-left: 20px;
+            width: 400px;
+            height: 25px;
+            margin-top: 5px;
+        }
+
+        label{
+            font-weight: lighter;
+            font-size: 15px;
+            margin-right: 20px;
+        }
+}
+
+   .container_button{
+    
+    margin-top: 15px;
+    margin-left: 25%;
+
+    .salvar{
+        width: 100px;
+        height: 30px;
+        margin-right: 20px;
+        color: azure;
+        background-color: #0000FF;
+        border: none;
+    }
+    .cancelar{
+        width: 100px;
+        height: 30px;
+        margin-top: 20px;
+        margin-right: 20px;
+        color: azure;
+        background: #ff0808 ;
+        border: none;
+    }
+
+   }
+}
+    
